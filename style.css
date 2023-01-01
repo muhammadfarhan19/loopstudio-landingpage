@@ -87,13 +87,16 @@ nav {
 
 .img-second {
   width: 60%;
+  /* border: 1px solid red; */
 }
 
 .img-sec-desc {
   background-color: var(--White);
   width: 40%;
-  padding: 80px 0 0 70px;
-  transform: translateY(145px) translateX(-180px);
+  padding: 40px;
+  text-align: right;
+  /* border: 1px solid red; */
+  /* align-self:flex-end; */
 }
 
 .title-sec {
@@ -154,6 +157,7 @@ nav {
 .card {
   width: 20%;
   height: 430px;
+  background-repeat: no-repeat;
   background-image: url(/images/desktop/image-deep-earth.jpg);
   display: flex;  
   justify-content: start;
@@ -186,7 +190,7 @@ nav {
 }
 
 .card:hover {
-  opacity: 0.4;
+  opacity: 0.8;
 }
 
 .card-name {

@@ -32,6 +32,7 @@
   background-image: url(/images/desktop/image-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 nav {
@@ -45,15 +46,19 @@ nav {
 .nav-logo {
   color: var(--White);
   font-weight: 800;
-  font-size: 2.3em;
+  font-size: 1.7em;
   cursor: pointer;
-  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
 }
 
 .nav-links {
   display: flex;
   gap: 45px;
   align-items: center;
+}
+
+.nav-menu {
+  display: none;
 }
 
 .nav-links li {
